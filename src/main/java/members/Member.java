@@ -18,9 +18,9 @@ public class Member {
     @Temporal(TemporalType.DATE)
     private Date startDate;
 
-    private int membershipDuration; // Duration in months
+    private int membershipDuration;
 
-    // Getters and setters
+
     public Long getId() {
         return id;
     }

@@ -24,9 +24,9 @@ public class Tournament {
     private double cashPrize;
 
     @ManyToMany
-    private List<Member> participatingMembers;  // Corrected to use Member entity
+    private List<Member> participatingMembers;
 
-    // Getters and setters
+
     public Long getId() {
         return id;
     }

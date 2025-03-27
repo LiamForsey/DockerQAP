@@ -51,3 +51,4 @@ public class TournamentService {
         tournamentRepository.deleteById(id);
     }
 }
+
